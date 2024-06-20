@@ -6,3 +6,5 @@
 - Configuração do webpack e webpack-server
 - Instalando e configurando o html-webpack-plugin
 - Instalando e configurando: style-loader, css-loader
+- Instalando e configurando o copy-webpack-plugin
+- Instalando e configurando o babel
