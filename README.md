@@ -4,3 +4,5 @@
 - Usando pacotes de terceiros: json-server, webpacks
 - Configuraçao do json-server
 - Configuração do webpack e webpack-server
+- Instalando e configurando o html-webpack-plugin
+- Instalando e configurando: style-loader, css-loader
