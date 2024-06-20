@@ -8,3 +8,4 @@
 - Instalando e configurando: style-loader, css-loader
 - Instalando e configurando o copy-webpack-plugin
 - Instalando e configurando o babel
+- Instalando o dayjs
