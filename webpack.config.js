@@ -5,11 +5,11 @@ module.exports = {
   target: "web",
   mode: "development",
   entry: path.resolve(__dirname, "src", "main.js"),
-  output:{
+  output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist")
   },
-  devServer:{
+  devServer: {
     static: {
       directory: path.join(__dirname, "dist")
     },
@@ -20,6 +20,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, "index.html"),
+      favicon: path.resolve("src", "assets", "scissors.svg")
     })
   ],
 }
